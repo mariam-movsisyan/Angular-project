@@ -1,0 +1,47 @@
+<div class="distance">
+    <div class="container">
+        <div class="d-flex justify-content-between">
+            <div class="top_block">
+                <p class="font">
+                    BRITVOLOGY
+                </p>
+            </div>
+            <div class="link">
+                <a href="#" class="font">ВСЕ СТАТЬИ</a>
+            </div>
+        </div>
+    
+        <div class="font d-flex">
+            <div class="bg-img">
+                <p class="text">
+                    Помазки для бритья
+                </p>
+                <div class="title">
+                    <a href="#">
+                        Помазки для бритья — история создания и применения
+                    </a>
+                </div>
+                <p class="text">24 августа 2022</p>
+            </div>
+            <div class="second-section d-flex">
+                <div class="img-div" *ngFor="let item of items">
+                    <img [src]="item.src" alt="">
+                    <div class="paddind">
+                        <p class="description">{{item.text}}</p>
+                        <p class="link1">
+                            <a href="#">
+                                {{item.title}}
+                            </a>
+                        </p>
+                        <p class="description">{{item.data}}</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="btn-div">
+            <button>Загрузить еще</button>
+        </div>
+    </div>
+</div>

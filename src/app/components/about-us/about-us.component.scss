@@ -1,0 +1,93 @@
+@import '../color-style.scss';
+.distance{
+    margin: 60px 0 0;
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    border: 1px solid #00000012;
+    .top_block{
+        p{
+            font-size: 26px;
+            opacity: .8;
+            margin-bottom: 30px;
+        }
+    }
+    .message{
+        justify-content: space-between;
+        width: 17%;
+        .link{
+            a{
+                text-decoration: none;
+                font-size: 11px;
+                color: $black-color;
+                opacity: .7;
+            }
+            i{
+                font-size: 11px;
+                opacity: .7;
+                margin-right: 10px;
+            
+            }
+            a:hover{
+                color: $base-color;
+            }
+        }
+    }
+    .comments{
+        .arrow-color{
+            width: 2%;
+            margin-top: 10%;
+            background-color: white;
+            height: 30px;
+            padding: 7px;
+            i{
+                opacity: .4;
+            }
+        }
+        .arrow-color:hover{
+            background-color: #00000001;
+        }
+        .about-user{
+            width: 80%;
+            .div-radius{
+                img{
+                    border-radius: 50%;
+                }
+    
+                .data{
+                    margin-left: 20px;
+                    p{
+                        opacity: .7;
+                        font-size: 12px;
+                    }
+                    .name{
+                        color: black;
+                        font-size: 25px;
+                        margin: 15px 0;
+                    }
+                }
+                .star{
+                    color: $base-color;
+                }
+            }
+            .result{
+                font-size: 18px;
+                letter-spacing: .8px;
+                opacity: .8;
+                line-height: 32px;
+                margin: 40px 0;
+            }
+
+            .btn-div{
+                margin-bottom: 20px;
+                button{
+                    background-color: $base-color;
+                    color: $white-color;
+                    border: none;
+                    padding: 10px 15px;
+                    border-radius: 3px;
+                }
+            }
+        }
+        
+    }
+}

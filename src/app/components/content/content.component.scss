@@ -1,0 +1,131 @@
+@import '../color-style.scss';
+
+.bg-color{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    margin-bottom: 40px;
+
+    .top_block{
+        p{
+            font-size: 26px;
+            opacity: .8;
+            margin-bottom: 30px;
+
+        }
+    }
+    .navigation{
+        ul{
+            width: 100%;
+        }
+        li{
+            list-style-type: none;
+            margin-right: 25px;
+            font-size: 14px;
+            line-height: 27px;
+
+            a{
+                color: $black-color;
+                text-decoration: none;
+            }
+            a:hover{
+                color: $base-color;
+            }
+        }
+        li:first-child{
+            border-bottom: 1px solid $base-color;
+        }
+    }
+
+    .link{
+        a{
+            text-decoration: none;
+            font-size: 11px;
+            line-height: 21px;
+            color: $black-color;
+            opacity: .7;
+        }
+        a:hover{
+            color: $base-color;
+        }
+    }
+
+    .slider{
+        width: 24.8%;
+        margin-right: 0.2%;
+        margin-top: 0.2%;
+        background-color: $white-color;
+        padding: 20px;
+        
+        
+        .text{
+            padding: 2px 7px;
+            border-radius: 2px;
+            background-color: $green-color;
+            font-size: 13px;
+            line-height: 27px;
+            display: inline-block;
+        }
+        img{
+            width: 100%;
+        }
+        .votes_block{
+            i{
+                margin-right: 2px;
+                opacity: .2;
+            }
+        }
+        .description{
+            margin-top: 20px;
+            a{
+                opacity: .8;
+                color: $black-color;
+                text-decoration: none;
+                font-size: 13px;
+                line-height: 24px;
+            
+            }
+            a:hover{
+                color: $base-color;
+            }
+        }
+        .count{
+            i,span{
+                font-size: 7px;
+                color: $green-color;
+                margin-right: 7px;
+            }
+            span{
+                font-size: 12px
+            }
+        }
+        .article_block{
+            margin-left: 20px;
+            font-size: 11px;
+            opacity: .6;
+        }
+        .price{
+            font-size: 18px;
+            line-height: 23px;
+            font-weight: bold;
+            opacity: .6;
+            margin: 15px 0;
+        }
+    }
+    .slider:hover{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .button{
+        width: 150px;
+        margin: 50px auto 0;
+        button{
+            background-color: $base-color;
+            border: none;
+            color: $white-color;
+            font-size: 11px;
+            padding: 12px;
+            border-radius: 3px;
+
+        }
+    }
+}

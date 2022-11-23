@@ -1,0 +1,51 @@
+@import '../color-style.scss';
+.padding{
+    padding: 30px 0 40px;
+}
+.grey-color{
+    color: $gray-color;
+}
+.icon{
+    transform: rotateZ(50deg);
+    margin-right: 6px;
+}
+.phonne-number{
+    a{
+        text-decoration: none;
+        color: $black-color;
+        font-weight: bolder;
+    }
+}
+.phonne-number{
+    a:hover{
+        color: $base-color;
+    }
+}
+.size{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sort-down{
+    margin-left: 6px;
+    margin-top: -5px;
+}
+.sort-down{
+    i{
+        font-size: 8px;
+    }
+}
+.logo img{
+    width: 200px;
+}
+.search{
+    cursor: pointer;
+}
+.search span{
+    margin-left: 15px;
+}
+.search:hover {
+    i, span{
+        color: #ecc547;
+    }
+}

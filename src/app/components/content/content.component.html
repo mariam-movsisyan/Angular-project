@@ -1,0 +1,67 @@
+<div class="bg-color">
+    <div class="container d-flex justify-content-between">
+        <div class="top_block">
+            <p class="font">
+                Предложения для вас
+            </p>
+        </div>
+        <div class="d-flex justify-content-between align-items-baseline">
+            <div class="navigation">
+                <ul class="d-flex font">
+                    <li>
+                        Новинка
+                    </li>
+                    <li>
+                        <a href="#">SALE</a>
+                    </li>
+                    <li>
+                        <a href="#">Лидер продаж</a>
+                    </li>
+                    <li>
+                        <a href="#">Премиум</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <a href="#" class="font">Весь каталог</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-flex wrap">
+        <div class="slider" *ngFor="let img of arr">
+            <div class="text">Новинка</div>
+            <a href="#">
+                <img [src]="img.src" alt="">
+            </a>
+            <div class="votes_block">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+            </div>
+            <div class="description font">
+                <a href="#">
+                    {{img.title}}
+                </a>
+            </div>
+            <div class="d-flex font align-items-baseline">
+                <div class="count">
+                    <i class="fa-solid fa-circle"></i>
+                    <span>{{img.count}}</span>
+                </div>
+                <div class="article_block">
+                       {{img.article}}
+                </div>
+            </div>
+            <div class="price font">
+                {{img.price}}
+            </div>
+        </div>
+    </div>
+    <div class="button font">
+        <button>ЗАГРУЗИТЬ ЕЩЕ</button>
+    </div>
+</div>

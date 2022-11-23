@@ -1,0 +1,34 @@
+@import "../color-style.scss";
+header{
+    border-bottom: 1px solid $gray-color;
+    padding: 10px 0 20px;
+}
+.navigation {
+    list-style-type: none;
+}
+.navigation li{
+    margin-right: 30px;
+}
+.navigation {
+    a{
+        text-decoration: none;
+        color: $gray-color;
+    }
+}
+.color{
+    color: $gray-color;
+    cursor: pointer;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+}
+.navigation{   
+    a:hover{
+        color: $base-color
+    }
+}
+.color:hover{
+    color: $base-color;
+}

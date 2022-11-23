@@ -1,0 +1,86 @@
+@import '../color-style.scss';
+.bg-color{
+    width: 100%;
+    padding: 50px 0 0;
+    background-color: #333;
+    .menu{
+        width: 20%;
+        ul{
+            li{
+                list-style-type: none;
+                line-height: 40px;
+                a{
+                    text-decoration: none;
+                    color: $white-color;
+                }
+                a:hover{
+                    opacity: .7;
+                }
+            }
+        }
+    }
+    .second_menu{
+        ul{
+            li{
+                opacity: .7;
+                font-size: 13px;
+                line-height: 30px;
+            }
+            li:first-child{
+                font-size: 16px;
+                opacity: 1;
+                line-height: 40px;
+            }
+        }
+    }
+    .companyInfo{
+        li{
+           padding-left: 20px;
+
+        }
+        .icon{
+                color: white;
+                opacity: .5;
+                position: relative;
+                right: 35px;
+            }
+    }
+
+    .social-icons{
+        margin: 50px 0 30px;
+        div{
+            padding: 3%;
+            border: 1px solid rgba(255, 255, 255, 0.27);
+            margin-left: 3%;
+
+            a{
+                color: white;
+                opacity: .7;
+                i{
+                    font-size: 25px;
+                }
+            }
+        }
+
+    }
+
+    .line{
+        hr{
+            width: 100%;
+            opacity: .4;
+        }
+    }
+
+    .footer{
+        padding: 50px 0;
+        .pays{
+            div{
+                margin-left: 5%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,52 @@
+.padding {
+  padding: 30px 0 40px;
+}
+
+.grey-color {
+  color: gray;
+}
+
+.icon {
+  transform: rotateZ(50deg);
+  margin-right: 6px;
+}
+
+.phonne-number a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.phonne-number a:hover {
+  color: #c0a319;
+}
+
+.size {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sort-down {
+  margin-left: 6px;
+  margin-top: -5px;
+}
+
+.sort-down i {
+  font-size: 8px;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.search {
+  cursor: pointer;
+}
+
+.search span {
+  margin-left: 15px;
+}
+
+.search:hover i, .search:hover span {
+  color: #ecc547;
+}/*# sourceMappingURL=logo.component.css.map */

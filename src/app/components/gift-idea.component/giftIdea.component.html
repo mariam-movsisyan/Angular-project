@@ -1,0 +1,29 @@
+<div class="distance">
+    <div class="container">
+        <div class="d-flex justify-content-between">
+            <div class="top_block">
+                <p class="font">
+                    Идеи подарков
+                </p>
+            </div>
+            <div class="link">
+                <a href="#" class="font">ВСЕ ИДЕИ ПОДАРКОВ</a>
+            </div>
+        </div>
+    
+        <div class="d-flex">
+            <div class="image-div" *ngFor="let item of items">
+                <a href="#">
+                    <img [src]="item.src" alt="">
+                </a>
+                <div class="title font">
+                    <a href="#">
+                        {{item.title}}
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+

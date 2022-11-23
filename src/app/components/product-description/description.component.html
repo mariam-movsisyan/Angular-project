@@ -1,0 +1,20 @@
+<div class="bg-color"> 
+    <div class="container">
+        <div class="d-flex wrap justify-content-between">
+            <div  class="bg-color1 d-flex" *ngFor="let item of items">
+                <div class="font inner-text">
+                    <div class="top_text">{{item.topText}}</div>
+                    <div class="title">
+                        <a href="#" class="link">{{item.title}}</a>
+                    </div>
+                    <div class="text">{{item.text}}</div>
+                </div>
+                <div class="img_inner">
+                    <a href="#" title="Косметика для бритья">
+                        <span class="bg-img" [ngStyle]="{'background-image' : item.src}"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

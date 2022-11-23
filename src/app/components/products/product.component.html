@@ -1,0 +1,19 @@
+<div class="container">
+    <ul class="d-flex justify-content-between">
+        <li *ngFor="let item of products">
+            <div>
+                <a href="#" class="font">
+                    <img [src]="item.src" alt="">
+                    
+                </a>
+            </div>
+            <div class="position">
+                <a href="#">
+                    <p class="subtitle">{{item.subtitle}}</p>
+                    <p>{{item.title}}</p>
+                </a>
+            </div>
+            
+        </li>
+    </ul>
+</div>

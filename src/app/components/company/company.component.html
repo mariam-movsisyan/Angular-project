@@ -1,0 +1,31 @@
+<div class="bg-color d-flex">
+    <div class="about-company font">
+        <span class="name">BRITVOLOGY</span>
+        <p class="title">Интернет-магазин BRITVOLOGY</p>
+        <div class="company-branches">
+            <p>
+                <b>ООО "МЮЛЛЕ" </b> 
+                <span>
+                     — эксклюзивный дистрибьютор и 
+                    представитель в России и странах ТС (Белоруссия, 
+                    Казахстан, Армения, Киргизия) компаний:
+                </span>
+            </p>
+
+            <ul>
+                <li *ngFor="let name of names">
+                    <b>{{name.name}}</b>
+                    <span>{{name.country}}</span>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="video bg-img">
+        <div class="play">
+            <a href="https://www.youtube.com/embed/LOzyNj58uOE" target="_blank">
+                <img src="../../../assets/images/video-img/play-button.png" alt="play-button">
+            </a>
+        </div>
+    </div>
+</div>

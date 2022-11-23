@@ -1,0 +1,18 @@
+.navigation{
+    li{
+        list-style-type: none;
+    } 
+    a{
+    color: black;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    }
+    a:hover{
+        color: #ecc547;
+        background-size: 100% 1px;
+    }
+}

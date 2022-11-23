@@ -1,0 +1,36 @@
+header {
+  border-bottom: 1px solid gray;
+  padding: 10px 0 20px;
+}
+
+.navigation {
+  list-style-type: none;
+}
+
+.navigation li {
+  margin-right: 30px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: gray;
+}
+
+.color {
+  color: gray;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+}
+
+.navigation a:hover {
+  color: #c0a319;
+}
+
+.color:hover {
+  color: #c0a319;
+}/*# sourceMappingURL=header.component.css.map */

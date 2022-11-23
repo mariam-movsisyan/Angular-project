@@ -1,0 +1,60 @@
+@import '../color-style.scss';
+.top_block{
+    p{
+        font-size: 26px;
+        opacity: .8;
+
+    }
+}
+.link{
+    a{
+        text-decoration: none;
+        font-size: 11px;
+        line-height: 21px;
+        color: $black-color;
+        opacity: .7;
+    }
+    a:hover{
+        color: $base-color;
+    }
+}
+
+.item{
+    width: 32%;
+    padding-bottom: 50px;
+    img{
+        width: 100%;
+    }
+
+    .date{
+        opacity: .6;
+        margin: 10px 0;
+        font-size: 14px;
+    }
+
+    .title{
+        margin-bottom: 10px;
+        a{
+            text-decoration: none;
+            color: black;
+            opacity: .9;
+        }
+        a:hover{
+            color: $base-color;
+        }
+    }
+    .sale-text{
+        background: #fbdc3f;
+        color: #333;
+        font-weight: bold;
+        display: inline-block;
+        padding: 4px 8px 3px 8px;
+        vertical-align: top;
+        font-size: 13px;
+        line-height: 27px;
+        border-radius: 2px;
+        position: relative;
+        top: 60px;
+        left: 30px;
+    }
+}

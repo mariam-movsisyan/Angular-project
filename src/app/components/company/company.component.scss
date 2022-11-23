@@ -1,0 +1,70 @@
+@import '../color-style.scss';
+.bg-color{
+    width: 100%;
+    background-color: #f8f8f8;
+    border: 1px solid #00000012;
+    // padding: 50px 0;
+
+    .about-company{
+        width: 50%;
+        padding: 6%;
+
+        .name{
+            font-size: 11px;
+            line-height: 21px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color: #999;
+        }
+
+        .title{
+            margin: 20px 0 32px;
+            line-height: 18px;
+            font-size: 26px;
+            opacity: .7;
+        }
+        .company-branches{
+
+            p{
+                margin-bottom: 20px;
+                span{
+                    opacity: .6;
+                    font-size: 14px;
+                }
+            }
+
+            ul{
+                padding-left: 4%;
+                li{
+                    list-style-type: none;
+                    line-height: 35px;
+                    span{
+                        opacity: .6;
+                        margin-left: 5px;
+                    }
+                }
+                li::before{
+                    content: "\2014";
+                    margin: 0 15px 0 -21px;
+                }
+            }
+            
+        }
+    }
+    .video{
+        width: 50%; 
+        background-image: url('../../../assets/images/video-img/image1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        .play{
+            position: relative;
+            top: 43%;
+            left: 43%;
+            display: inline-block;
+            transition: 1s; 
+            }
+           .play img:hover {
+                transform: scale(1.2);
+           }
+    }
+}

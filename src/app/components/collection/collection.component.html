@@ -1,0 +1,31 @@
+<div class="border">
+    <div class="container">
+        <div class="d-flex">
+            <div class="info font">
+                <p class="title">Коллекции</p>
+                <p class="text">
+                    Коллекции косметики от известных брендов. 
+                    Широкий ассортимент и европейское качество. 
+                    Компоненты гипоаллергенны и проверены ведущими лабораториями. 
+                    Компоненты не тестировались на животных.
+                </p>
+                <div class="collection">
+                    <a href="#">
+                        Все коллекции
+                    </a>
+                </div>
+            </div>
+            <div class="img-div d-flex justify-content-between">
+                <div *ngFor="let item of items" class="width">
+                    <div class="bg-img" [ngStyle]="{'background-image' : item.src}">
+                        <span class="circle"></span>
+                        <a href="#" class="">
+                            {{item.text}}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

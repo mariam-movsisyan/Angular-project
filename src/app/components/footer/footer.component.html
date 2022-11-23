@@ -1,0 +1,83 @@
+<div class="bg-color">
+    <div class="container">
+        <div class="d-flex">
+            <div class="menu font">
+                <ul>
+                    <li *ngFor="let i of firstMenu">
+                        <a [href]="i.href">{{i.name}}</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="second_menu menu font">
+                <ul>
+                    <li *ngFor="let about of secondMenu">
+                        <a [href]="about.href">{{about.name}}</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="second_menu menu font">
+                <ul>
+                    <li *ngFor="let information of thirdMenu">
+                        <a [href]="information.href">{{information.name}}</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="second_menu menu font">
+                <ul>
+                    <li *ngFor="let catalog of fourthMenu">
+                        <a [href]="catalog.href">{{catalog.name}}</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="companyInfo menu font">
+                <ul>
+                    <li *ngFor="let companyInfo of  fifthMenu">
+                        <i [class]="companyInfo.icon" class="icon"></i>
+                        <a [href]="companyInfo.href">{{companyInfo.name}}</a>
+                    </li>
+                </ul>
+                <div class="d-flex social-icons">
+                    <div>
+                        <a href="https://vk.com/" target="_blank">
+                            <i class="fa-brands fa-vk"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://web.telegram.org/z/" target="_blank">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line">
+            <hr>
+        </div>    
+        <div class="footer d-flex justify-content-between align-items-center">
+            <div>
+                2022 © ООО "МЮЛЛЕ" и BRITVOLOGY. Все права защищены
+            </div>
+            <div class="pays d-flex"> 
+                <div>
+                    <img src="../../../assets/images/footer/visa.png" alt="">		
+                </div>
+                <div>
+                    <img src="../../../assets/images/footer/visa.png" alt="">		
+                </div>
+                <div>
+                    <img src="../../../assets/images/footer/visa.png" alt="">		
+                </div>
+            </div>
+        </div>    
+    </div>
+</div>

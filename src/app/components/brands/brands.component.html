@@ -1,0 +1,9 @@
+<div class="icons container">
+    <ul class="d-flex align-items-center justify-content-center">
+        <li *ngFor="let icon of brands">
+            <a [href]="icon.href">
+                <img [src]="icon.src" alt="">
+            </a>
+        </li>
+    </ul>
+</div>

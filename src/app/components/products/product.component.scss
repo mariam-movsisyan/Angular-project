@@ -1,0 +1,34 @@
+@import '../color-style.scss';
+ul{
+    flex-wrap: wrap;
+    li{
+        list-style-type: none;
+        width: 22%;
+        a{
+            text-decoration: none;
+            color: $white-color;
+            img{
+                width: 100%;
+                height: 300px;
+            }
+            .subtitle{
+                opacity: .7;
+                letter-spacing: 0.8px;
+                font-size: 11px;
+            }
+            p{
+                padding: 5px;
+            }
+        }
+        .position{
+            position: relative;
+            bottom: 75px;
+            left: 25px;
+        }
+    }
+
+    li:first-child,li:last-child {
+        width: 48%;
+    }
+}
+
